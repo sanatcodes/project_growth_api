@@ -1,16 +1,16 @@
 
-🌐 Project Growth API
+# 🌐 Project Growth API
 This API allows you to send and receive data to and from MongoDB. The API is built using FastAPI, a modern, fast (high-performance) web framework for building APIs with Python.
 
-🚀 Getting Started
+## 🚀 Getting Started
 To get started with this API, you'll need to install Python and the required packages.
 
-🛠️ Installation
+## 🛠️ Installation
 Clone the repository: git clone https://github.com/sant_codes/mongodb-api.git
 Install the required packages: pip install -r requirements.txt
 Run the application: uvicorn main:app --reload
 
-📚 API Endpoints
+## 📚 API Endpoints
 GET /category
 Returns a list of all categories in the database.
 
@@ -20,5 +20,5 @@ Creates a new category in the database. The request body must contain a JSON obj
 GET /category/{trending_date}
 Returns the category with the specified trending_date. If the category does not exist, a 404 error is returned.
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
