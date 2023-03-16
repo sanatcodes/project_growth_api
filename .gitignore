@@ -3,7 +3,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*$py.class  
+env-pymongo-fastapi-crud
+api-call-samples
 
 # C extensions
 *.so
